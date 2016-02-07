@@ -60,3 +60,4 @@ plot(plot4b$time_date2, plot4b$Global_reactive_power, type="n", xlab="datetime",
      cex.lab=0.5, cex.axis=0.5, ylim=c(0,0.5))
 lines(plot4b$time_date2, plot4b$Global_reactive_power, type="l")
 
+

@@ -14,3 +14,4 @@ plot1 <- filter(plot1, !is.na(Global_active_power))
 hist(plot1$Global_active_power)
 hist(plot1$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power", 
      cex.lab=0.75, cex.axis=0.75, cex.main=0.75)
+

@@ -15,3 +15,4 @@ plot2 <- mutate(plot2, time_date2=as.POSIXct(strptime(time_date, "%Y-%m-%d %H:%M
 plot(plot2$time_date2, plot2$Global_active_power, type="n", xlab="", ylab="Global Active Power (kilowatts)", 
      cex.lab=0.75, cex.axis=0.75)
 lines(plot2$time_date2, plot2$Global_active_power, type="l")
+
