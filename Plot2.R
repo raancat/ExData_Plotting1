@@ -16,3 +16,4 @@ plot(plot2$time_date2, plot2$Global_active_power, type="n", xlab="", ylab="Globa
      cex.lab=0.75, cex.axis=0.75)
 lines(plot2$time_date2, plot2$Global_active_power, type="l")
 
+##Thank you

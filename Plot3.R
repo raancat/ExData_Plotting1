@@ -26,3 +26,4 @@ lines(plot3$time_date2, plot3$Sub_metering_3, type="l", col="blue")
 legend("topright", pch="-", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2",
     "Sub_metering_3"), cex=0.5, lwd=1.5, lty=1)
 
+##Thank you
